@@ -348,19 +348,16 @@ h2 {
 
 
 .certificate-item {
-  width: 22%;
+  background: #D1D8BE;
+  border-radius: 0.9375rem;
+  box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 100%;
+  max-width: 20rem; 
   text-align: center;
-  margin: 0.8rem;
-  background-color: #D1D8BE;
-  border-radius: 12px;
-  padding: 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 450px; /* Increase total card height */
+  padding-bottom: 0.625rem;
+  height: 450px;
 }
-
 
 
 .certificate-item:hover {
@@ -378,16 +375,20 @@ h2 {
 
 .certificate-item h3 {
   font-size: 1.2rem;
-  color: #2e3130;
-  margin-bottom: 0.5rem;
+  margin: 1rem 0;
+  color: #181a19;
+
 }
 
 .certificate-item p {
-  font-size: 0.95rem;
+  padding: 0 2rem 1rem;
   color: #606e69;
-  
+  font-size: 1rem; 
 }
-
+.certificate-item a {
+    text-decoration: none;
+    color: #D1D8BE;
+}
 
 
 .projects {
