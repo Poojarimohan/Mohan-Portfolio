@@ -784,22 +784,6 @@ footer p {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .skills-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    justify-items: center;
-    padding: 0 10px;
-  }
-
-  .skill-item img {
-    width: 60px;
-    height: 60px;
-  }
-
-  .skill-item p {
-    font-size: 14px;
-  }
       
   .certificate-item,
   .project-item {
