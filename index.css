@@ -349,8 +349,8 @@ h2 {
 
 .certificate-item {
   width: 22%;
+  min-width: 270px;
   text-align: center;
-  margin: 0.8rem;
   background-color: #D1D8BE;
   border-radius: 12px;
   padding: 1rem;
@@ -358,8 +358,9 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 450px; /* Increase total card height */
+  height: 100%; /* Keep height flexible */
 }
+
 
 
 .certificate-item:hover {
@@ -419,10 +420,15 @@ h2 {
   box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.3);
   overflow: hidden;
   width: 100%;
-  max-width: 20rem; /* Keep your preferred card width */
+  max-width: 300px;
   text-align: center;
-  padding-bottom: 0.625rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
+
 
 
 .project-item:hover {
@@ -918,6 +924,20 @@ footer p {
     }
    
   }
+@media (max-width: 768px) {
+  .certificate-item,
+  .project-item {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .certificates-grid,
+  .project-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 
 /* Animation on load */
 .animate-on-load {
