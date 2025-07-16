@@ -932,6 +932,54 @@ footer p {
     flex-direction: column;
     align-items: center;
   }
+    .project-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .project-item {
+    width: 90%;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #f3f3f3;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .project-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+  }
+
+  .project-tech h5 {
+    background-color: #ffffff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+
+  .Git-btn {
+    margin-top: 12px;
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+
+  .Git-btn a {
+    text-decoration: none;
+    color: #000;
+  }
 }
 
 
