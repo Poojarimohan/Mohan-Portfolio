@@ -779,17 +779,17 @@ footer p {
     .skills-icons img {
       width: 5rem;
     }
-    .skills-icons {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  
   .certificate-item,
   .project-item {
     width: 90%;
     margin: 0 auto;
   }
+      .project-list {
+      gap: 1.5rem;
+    }
 
-  .certificates-grid,
-  .project-list {
+  .certificates-grid {
     flex-direction: column;
     align-items: center;
   }
